@@ -1,6 +1,6 @@
-# Applications for filipebarcos
+# Applications for ezilocchi
 
-class filipebarcos::apps {
+class ezilocchi::apps {
   notice("Installing applications for ${::boxen_user}")
 
   # Brew Cask

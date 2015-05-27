@@ -1,11 +1,10 @@
-# Include everything for filipebarcos
+# Include everything for ezilocchi
 
-class filipebarcos::all {
-  notice('Setting up filipebarcos')
+class ezilocchi::all {
+  notice('Setting up ezilocchi')
 
-  include filipebarcos::apps
-  include filipebarcos::dev
-  include filipebarcos::dotfiles
-  include filipebarcos::preferences
+  include ezilocchi::apps
+  include ezilocchi::dev
+  include ezilocchi::preferences
 
 }

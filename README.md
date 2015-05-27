@@ -6,23 +6,23 @@ This means that adding a personal configuration is done by adding the module in
 the `Puppetfile`.
 
 ```
-github "filipebarcos", "1.0.0", :repo => "filipebarcos/puppet-filipebarcos"
+github "ezilocchi", "1.0.0", :repo => "ezilocchi/puppet-ezilocchi"
 ```
 
 ## Personal module
 
-I added a class named `filipebarcos` and files defined for installing `dotfiles`,
+I added a class named `ezilocchi` and files defined for installing `dotfiles`,
 `applications` and `preferences`.
 I also have a file for `all`. This would allow us to make sure that everything
-gets installed in boxen when we `include filipebarcos::all` only modifying the
+gets installed in boxen when we `include ezilocchi::all` only modifying the
 module version in the `Puppetfile`.
 
 ```
-class filipebarcos
-class filipebarcos::all
-class filipebarcos::applications
-class filipebarcos::dotfiles
-class filipebarcos::preferences
+class ezilocchi
+class ezilocchi::all
+class ezilocchi::applications
+class ezilocchi::dotfiles
+class ezilocchi::preferences
 
 ```
 

@@ -6,5 +6,6 @@ class ezilocchi::all {
   include ezilocchi::apps
   include ezilocchi::dev
   include ezilocchi::preferences
+  include ezilocchi::osx
 
 }

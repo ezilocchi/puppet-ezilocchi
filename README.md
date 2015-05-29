@@ -21,7 +21,7 @@ module version in the `Puppetfile`.
 class ezilocchi
 class ezilocchi::all
 class ezilocchi::applications
-class ezilocchi::dotfiles
+class ezilocchi::dev
 class ezilocchi::preferences
 
 ```

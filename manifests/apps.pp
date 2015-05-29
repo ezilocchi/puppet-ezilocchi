@@ -11,7 +11,6 @@ class ezilocchi::apps {
       'flux',
       'google-chrome',
       'iterm2',
-      'spotify',
       'spectacle',
       'clipmenu',
       'vlc',
